@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.05932d4e.chunk.css",
-    "main.js": "/static/js/main.30b8b3c7.chunk.js",
-    "main.js.map": "/static/js/main.30b8b3c7.chunk.js.map",
+    "main.css": "/static/css/main.9e1872a1.chunk.css",
+    "main.js": "/static/js/main.c1efcfbd.chunk.js",
+    "main.js.map": "/static/js/main.c1efcfbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a6a8990a.js",
     "runtime-main.js.map": "/static/js/runtime-main.a6a8990a.js.map",
-    "static/js/2.6d477652.chunk.js": "/static/js/2.6d477652.chunk.js",
-    "static/js/2.6d477652.chunk.js.map": "/static/js/2.6d477652.chunk.js.map",
+    "static/js/2.de072948.chunk.js": "/static/js/2.de072948.chunk.js",
+    "static/js/2.de072948.chunk.js.map": "/static/js/2.de072948.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.05932d4e.chunk.css.map": "/static/css/main.05932d4e.chunk.css.map",
-    "static/js/2.6d477652.chunk.js.LICENSE.txt": "/static/js/2.6d477652.chunk.js.LICENSE.txt",
+    "static/css/main.9e1872a1.chunk.css.map": "/static/css/main.9e1872a1.chunk.css.map",
+    "static/js/2.de072948.chunk.js.LICENSE.txt": "/static/js/2.de072948.chunk.js.LICENSE.txt",
     "static/media/Blog-MVC.c74468d3.png": "/static/media/Blog-MVC.c74468d3.png",
     "static/media/FULLSTACK-BUDGET.57377311.png": "/static/media/FULLSTACK-BUDGET.57377311.png",
     "static/media/FULLSTACK-WORKOUT.fa3aa085.png": "/static/media/FULLSTACK-WORKOUT.fa3aa085.png",
@@ -17,15 +17,15 @@
     "static/media/HAGGLE-MVC.c58eb81e.png": "/static/media/HAGGLE-MVC.c58eb81e.png",
     "static/media/Hello.d4b09f98.jpg": "/static/media/Hello.d4b09f98.jpg",
     "static/media/HolidayParty.498348bd.jpg": "/static/media/HolidayParty.498348bd.jpg",
-    "static/media/KBlack_DEV_Resume.516375bf.pdf": "/static/media/KBlack_DEV_Resume.516375bf.pdf",
+    "static/media/KBlack_Resume_SE.f03b7607.pdf": "/static/media/KBlack_Resume_SE.f03b7607.pdf",
     "static/media/MERN-HAGGLE.aba89c9f.png": "/static/media/MERN-HAGGLE.aba89c9f.png",
     "static/media/Pikes-Peak-300x400.447d07d5.jpg": "/static/media/Pikes-Peak-300x400.447d07d5.jpg",
-    "static/media/style.css": "/static/media/Unioncrop.a75d06c8.jpg"
+    "static/media/Unioncrop.a75d06c8.jpg": "/static/media/Unioncrop.a75d06c8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a6a8990a.js",
-    "static/js/2.6d477652.chunk.js",
-    "static/css/main.05932d4e.chunk.css",
-    "static/js/main.30b8b3c7.chunk.js"
+    "static/js/2.de072948.chunk.js",
+    "static/css/main.9e1872a1.chunk.css",
+    "static/js/main.c1efcfbd.chunk.js"
   ]
 }
