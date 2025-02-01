@@ -1,0 +1,97 @@
+.skills {
+  padding: 50px;
+  background: #ece2d0;
+  text-align: center;
+}
+
+.skills h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #2a3d66;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.skill-card {
+  flex: 0 0 auto;
+  width: 150px;
+  height: 150px;
+  margin: 0 10px;
+  background: radial-gradient(circle, #faf9f6, #ece2d0);
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), inset 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+
+.skill-card::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  width: 80%;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  filter: blur(5px);
+  z-index: -1;
+  transition: width 0.3s, height 0.3s, bottom 0.3s;
+}
+
+.skill-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card p {
+  font-family: 'Roboto', sans-serif;
+  color: #666;
+  font-weight: 500;
+  font-size: 1.1em;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  text-align: center;
+}
+
+.skill-card:hover {
+  animation: bounce 0.6s ease-in-out infinite;
+}
+
+.skill-card:hover::before {
+  width: 60%;
+  height: 6px;
+  bottom: -5px;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
