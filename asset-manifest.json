@@ -1,31 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e1872a1.chunk.css",
-    "main.js": "/static/js/main.c1efcfbd.chunk.js",
-    "main.js.map": "/static/js/main.c1efcfbd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a6a8990a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a6a8990a.js.map",
-    "static/js/2.de072948.chunk.js": "/static/js/2.de072948.chunk.js",
-    "static/js/2.de072948.chunk.js.map": "/static/js/2.de072948.chunk.js.map",
+    "main.css": "/static/css/main.b9e7a2b4.css",
+    "main.js": "/static/js/main.5c4a8e6d.js",
+    "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/unionstation.jpg": "/static/media/unionstation.47a1e68efd533b097a39.jpg",
+    "static/media/haggle.png": "/static/media/haggle.aba89c9f1e70da48ceff.png",
+    "static/media/instaverse.png": "/static/media/instaverse.ef20a0570f04f69df516.png",
+    "static/media/HolidayParty.jpg": "/static/media/HolidayParty.498348bd721408b84014.jpg",
+    "static/media/denver-skyline-ultra-enhancedcopy.jpg": "/static/media/denver-skyline-ultra-enhancedcopy.826d7a18eb6aac4d1625.jpg",
+    "static/media/ghFinder.png": "/static/media/ghFinder.d78c712f583cb3b62784.png",
+    "static/media/workout-tracker.png": "/static/media/workout-tracker.fa3aa0850f2c72a68866.png",
     "index.html": "/index.html",
-    "static/css/main.9e1872a1.chunk.css.map": "/static/css/main.9e1872a1.chunk.css.map",
-    "static/js/2.de072948.chunk.js.LICENSE.txt": "/static/js/2.de072948.chunk.js.LICENSE.txt",
-    "static/media/Blog-MVC.c74468d3.png": "/static/media/Blog-MVC.c74468d3.png",
-    "static/media/FULLSTACK-BUDGET.57377311.png": "/static/media/FULLSTACK-BUDGET.57377311.png",
-    "static/media/FULLSTACK-WORKOUT.fa3aa085.png": "/static/media/FULLSTACK-WORKOUT.fa3aa085.png",
-    "static/media/Frontend-NoteTaker.6fa64f21.png": "/static/media/Frontend-NoteTaker.6fa64f21.png",
-    "static/media/HAGGLE-MVC.c58eb81e.png": "/static/media/HAGGLE-MVC.c58eb81e.png",
-    "static/media/Hello.d4b09f98.jpg": "/static/media/Hello.d4b09f98.jpg",
-    "static/media/HolidayParty.498348bd.jpg": "/static/media/HolidayParty.498348bd.jpg",
-    "static/media/KBlack_Resume_SE.f03b7607.pdf": "/static/media/KBlack_Resume_SE.f03b7607.pdf",
-    "static/media/MERN-HAGGLE.aba89c9f.png": "/static/media/MERN-HAGGLE.aba89c9f.png",
-    "static/media/Pikes-Peak-300x400.447d07d5.jpg": "/static/media/Pikes-Peak-300x400.447d07d5.jpg",
-    "static/media/Unioncrop.a75d06c8.jpg": "/static/media/Unioncrop.a75d06c8.jpg"
+    "main.b9e7a2b4.css.map": "/static/css/main.b9e7a2b4.css.map",
+    "main.5c4a8e6d.js.map": "/static/js/main.5c4a8e6d.js.map",
+    "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.a6a8990a.js",
-    "static/js/2.de072948.chunk.js",
-    "static/css/main.9e1872a1.chunk.css",
-    "static/js/main.c1efcfbd.chunk.js"
+    "static/css/main.b9e7a2b4.css",
+    "static/js/main.5c4a8e6d.js"
   ]
 }
