@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.b9e7a2b4.css",
-    "main.js": "/static/js/main.5c4a8e6d.js",
+    "main.css": "/static/css/main.fd85c0aa.css",
+    "main.js": "/static/js/main.7a43971c.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
+    "static/media/enhanced_mountain.png": "/static/media/enhanced_mountain.c1f5174f6cd35805d1bc.png",
     "static/media/unionstation.jpg": "/static/media/unionstation.47a1e68efd533b097a39.jpg",
     "static/media/haggle.png": "/static/media/haggle.aba89c9f1e70da48ceff.png",
     "static/media/instaverse.png": "/static/media/instaverse.ef20a0570f04f69df516.png",
     "static/media/HolidayParty.jpg": "/static/media/HolidayParty.498348bd721408b84014.jpg",
-    "static/media/denver-skyline-ultra-enhancedcopy.jpg": "/static/media/denver-skyline-ultra-enhancedcopy.826d7a18eb6aac4d1625.jpg",
     "static/media/ghFinder.png": "/static/media/ghFinder.d78c712f583cb3b62784.png",
     "static/media/workout-tracker.png": "/static/media/workout-tracker.fa3aa0850f2c72a68866.png",
     "index.html": "/index.html",
-    "main.b9e7a2b4.css.map": "/static/css/main.b9e7a2b4.css.map",
-    "main.5c4a8e6d.js.map": "/static/js/main.5c4a8e6d.js.map",
+    "main.fd85c0aa.css.map": "/static/css/main.fd85c0aa.css.map",
+    "main.7a43971c.js.map": "/static/js/main.7a43971c.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9e7a2b4.css",
-    "static/js/main.5c4a8e6d.js"
+    "static/css/main.fd85c0aa.css",
+    "static/js/main.7a43971c.js"
   ]
 }
