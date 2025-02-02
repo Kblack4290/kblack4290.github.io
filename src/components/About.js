@@ -14,11 +14,11 @@ const About = () => {
                     <h3>Keith Black</h3>
                     <p>Software Engineer</p>
                     <ul>
-                        <li><a href="https://www.linkedin.com/in/keithblack4290" target="_blank" rel="noopener noreferrer"><FaLinkedin /> LinkedIn</a></li>
+                        <li><a href="https://www.linkedin.com/in/kblack4290/" target="_blank" rel="noopener noreferrer"><FaLinkedin /> LinkedIn</a></li>
                         <li><a href="https://github.com/Kblack4290" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a></li>
                         <li><a href="mailto:keithblack4290@gmail.com"><FaEnvelope /> keithblack4290@gmail.com</a></li>
-                        <li><a href="tel:+1234567890"><FaPhone /> +1 (234) 567-890</a></li>
-                        <li><a href="/path/to/resume.pdf" download><FaFileDownload /> Download Resume</a></li>
+                        <li><a href="tel:+18456259783"><FaPhone /> (845) 625-9783</a></li>
+                        <li><a href="/path/to/resume.pdf" download><FaFileDownload />Resume</a></li>
                     </ul>
                 </div>
             </div>

@@ -3,16 +3,17 @@
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
-  background: #ece2d0;
+  background: radial-gradient(circle, #121212, #2c4a3e);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 0;
+  margin: 50px 0;
+  border-radius: 10px;
 }
 
 .contact h2 {
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
-  color: #2a3d66;
-  font-size: 2em;
+  color: #ffffff;
+  font-size: 2.5em;
 }
 
 .contact form {
@@ -28,7 +29,7 @@
   width: 100%;
   padding: 15px;
   margin-bottom: 20px;
-  border: 2px solid #d9773e;
+  border: 2px solid #1c2a3a;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   font-size: 16px;
@@ -38,8 +39,8 @@
 .contact button {
   width: 50%;
   padding: 15px;
-  background-color: #d9773e;
-  color: #faf9f6;
+  background-color: #1c2a3a;
+  color: #ffffff;
   border: none;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -50,5 +51,5 @@
 }
 
 .contact button:hover {
-  background-color: #f4a261;
+  background-color: #121212;
 }

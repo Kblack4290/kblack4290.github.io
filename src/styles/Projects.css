@@ -1,14 +1,16 @@
 .projects {
   padding: 50px;
-  background: #ece2d0;
+  background: radial-gradient(circle, #121212, #2c4a3e);
   text-align: center;
+  margin: 50px 0;
+  border-radius: 10px;
 }
 
 .projects h2 {
   font-family: 'Roboto', sans-serif;
-  color: #2a3d66;
+  color: #ffffff;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -21,7 +23,7 @@
 }
 
 .project-card {
-  background: #faf9f6;
+  background: linear-gradient(175deg, #ffffff, #1c2a3a);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -57,7 +59,7 @@
 .project-details h3 {
   margin: 0 0 10px;
   font-family: 'Roboto', sans-serif;
-  color: #2a3d66;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1.5em;
   animation: textSlideIn 0.5s ease-in-out;
@@ -66,14 +68,14 @@
 .project-details p {
   margin: 0 0 10px;
   font-family: 'Roboto', sans-serif;
-  color: #666;
+  color: #ffffff;
   font-weight: 400;
   font-size: 1.2em;
   animation: textSlideIn 0.5s ease-in-out;
 }
 
 .project-details a {
-  color: #d9773e;
+  color: #ffffff;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -85,7 +87,7 @@
 }
 
 .project-details a:hover {
-  color: #f4a261;
+  color: #121212;
   text-decoration: underline;
 }
 
