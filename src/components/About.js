@@ -2,6 +2,7 @@ import '../styles/About.css';
 import profilePic from '../Assets/images/HolidayParty.jpg';
 import unionStation from '../Assets/images/unionstation.jpg';
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaFileDownload } from 'react-icons/fa';
+import resume from '../Assets/documents/KBlack_SE_Resume.pdf';
 
 const About = () => {
     return (
@@ -18,7 +19,7 @@ const About = () => {
                         <li><a href="https://github.com/Kblack4290" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a></li>
                         <li><a href="mailto:keithblack4290@gmail.com"><FaEnvelope /> keithblack4290@gmail.com</a></li>
                         <li><a href="tel:+18456259783"><FaPhone /> (845) 625-9783</a></li>
-                        <li><a href="/path/to/resume.pdf" download><FaFileDownload />Resume</a></li>
+                        <li><a href={resume} download><FaFileDownload />Resume</a></li>
                     </ul>
                 </div>
             </div>

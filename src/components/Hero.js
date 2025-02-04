@@ -3,7 +3,7 @@ import '../styles/Hero.css';
 
 const Hero = () => {
     const [text, setText] = useState('');
-    const fullText = 'Fullstack Software Engineer';
+    const fullText = 'A Fullstack Software Engineer';
 
     useEffect(() => {
         let index = 0;
@@ -13,7 +13,7 @@ const Hero = () => {
             if (index === fullText.length) {
                 clearInterval(interval);
             }
-        }, 100); // Adjust typing speed here
+        }, 100);
         return () => clearInterval(interval);
     }, []);
 
@@ -23,7 +23,7 @@ const Hero = () => {
                 <div className="hero-content">
                     <h1 className="fade-in">Keith Black</h1>
                     <p className="typing">{text}</p>
-                    <a href="#contact" className="btn">Get in Touch</a>
+                    <a href="#about" className="btn">Learn More</a>
                 </div>
             </div>
         </section>

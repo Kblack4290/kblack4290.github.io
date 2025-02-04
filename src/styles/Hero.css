@@ -8,7 +8,7 @@
   position: relative;
   color: #ffffff;
   opacity: 0;
-  animation: fadeIn 2s forwards; /* Fade in the entire hero section */
+  animation: fadeIn 2s forwards;
 }
 
 .hero-overlay {
@@ -28,7 +28,7 @@
   max-width: 600px;
   z-index: 1;
   opacity: 0;
-  animation: fadeIn 2s 1s forwards; /* Fade in the content after the hero section */
+  animation: fadeIn 2s 1s forwards;
 }
 
 .hero h1 {
@@ -36,7 +36,7 @@
   font-family: 'Roboto', sans-serif;
   margin-bottom: 20px;
   opacity: 0;
-  animation: fadeIn 2s 2s forwards; /* Fade in the name after the content */
+  animation: fadeIn 2s 2s forwards;
 }
 
 .hero p {
@@ -45,7 +45,7 @@
   margin-bottom: 40px;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.15em solid #ffffff; /* Cursor effect */
+  border-right: 0.15em solid #ffffff;
   animation: typing 5s 5s forwards,
     steps(20, end) blink-caret 0.75s step-end infinite;
 }

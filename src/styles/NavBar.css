@@ -28,8 +28,19 @@ html {
   padding: 0 20px;
 }
 
+.navbar-logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
 .navbar-logo a {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   text-decoration: none;
@@ -44,19 +55,19 @@ html {
 }
 
 .navbar-links li {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .navbar-links li a {
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
   transition: color 0.3s;
 }
 
 .navbar-links li a:hover {
-  color: #d4a373;
+  color: #1c2a3a;
 }
 
 .navbar-social {
@@ -66,11 +77,118 @@ html {
 
 .navbar-social a {
   color: #ffffff;
-  margin-left: 15px;
-  font-size: 1.5em;
+  margin-left: 20px;
+  font-size: 2em;
   transition: color 0.3s;
 }
 
 .navbar-social a:hover {
-  color: #d4a373;
+  color: #1c2a3a;
+}
+
+.navbar-social a::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(18, 18, 18, 0.9);
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.navbar-social a:hover::after {
+  opacity: 1;
+  font-size: 16px;
+}
+
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger-menu div {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(18, 18, 18, 0.9);
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.menu-icons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menu-icons a {
+  color: #ffffff;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.menu-icons a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    top: 0;
+  }
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-social {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  .navbar-logo .name {
+    display: none;
+  }
 }
