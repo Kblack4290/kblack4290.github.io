@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd85c0aa.css",
-    "main.js": "/static/js/main.7a43971c.js",
+    "main.css": "/static/css/main.5a370f52.css",
+    "main.js": "/static/js/main.9ee9e24f.js",
     "static/js/453.acca0757.chunk.js": "/static/js/453.acca0757.chunk.js",
     "static/media/enhanced_mountain.png": "/static/media/enhanced_mountain.c1f5174f6cd35805d1bc.png",
     "static/media/unionstation.jpg": "/static/media/unionstation.47a1e68efd533b097a39.jpg",
     "static/media/haggle.png": "/static/media/haggle.aba89c9f1e70da48ceff.png",
     "static/media/instaverse.png": "/static/media/instaverse.ef20a0570f04f69df516.png",
     "static/media/HolidayParty.jpg": "/static/media/HolidayParty.498348bd721408b84014.jpg",
+    "static/media/KBlack_SE_Resume.pdf": "/static/media/KBlack_SE_Resume.51c99220a14e2be0a506.pdf",
     "static/media/ghFinder.png": "/static/media/ghFinder.d78c712f583cb3b62784.png",
     "static/media/workout-tracker.png": "/static/media/workout-tracker.fa3aa0850f2c72a68866.png",
     "index.html": "/index.html",
-    "main.fd85c0aa.css.map": "/static/css/main.fd85c0aa.css.map",
-    "main.7a43971c.js.map": "/static/js/main.7a43971c.js.map",
+    "main.5a370f52.css.map": "/static/css/main.5a370f52.css.map",
+    "main.9ee9e24f.js.map": "/static/js/main.9ee9e24f.js.map",
     "453.acca0757.chunk.js.map": "/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd85c0aa.css",
-    "static/js/main.7a43971c.js"
+    "static/css/main.5a370f52.css",
+    "static/js/main.9ee9e24f.js"
   ]
 }
