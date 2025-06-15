@@ -2,7 +2,7 @@ import '../styles/About.css';
 import profilePic from '../Assets/images/HolidayParty.jpg';
 import unionStation from '../Assets/images/unionstation.jpg';
 import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaFileDownload } from 'react-icons/fa';
-import resume from '../Assets/documents/KBlack_SE_Resume.pdf';
+import resume from '../Assets/documents/KB_Dev_Resume.pdf';
 
 const About = () => {
     return (

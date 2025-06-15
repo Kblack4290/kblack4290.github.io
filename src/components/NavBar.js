@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/NavBar.css';
 import { FaGithub, FaLinkedin, FaFileDownload } from 'react-icons/fa';
-import resume from '../Assets/documents/KBlack_SE_Resume.pdf';
+import resume from '../Assets/documents/KB_Dev_Resume.pdf';
 import kbLogoDark from '../Assets/logos/logo_size.jpg';
 
 const NavBar = () => {
