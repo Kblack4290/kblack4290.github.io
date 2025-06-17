@@ -5,9 +5,11 @@ import instaverse from '../Assets/images/Projects/instaverse.png';
 import WorkoutTracker from '../Assets/images/Projects/workout-tracker.png';
 import ghFinder from '../Assets/images/Projects/ghFinder.png';
 import haggle from '../Assets/images/Projects/haggle.png';
+import cpaTemplate from '../Assets/images/Projects/cpa_template.png';
 import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const projectDetails = {
+    'cpa-template': { image: cpaTemplate },
     'instaverse': { image: instaverse },
     'Workout-Tracker': { image: WorkoutTracker },
     'gh-finder': { image: ghFinder },
